@@ -54,7 +54,7 @@ namespace MNSX.Web
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=List}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
